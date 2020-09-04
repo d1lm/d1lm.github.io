@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: 0 == "0": Learning Javascript
+title: Coercion, Zero Equals 0 and Learning Javascript
 # All dates must be YYYY-MM-DD format!
 date: 2020-09-02
 labels:
