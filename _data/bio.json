@@ -78,21 +78,10 @@
       ]
     }
   ],
-  "projects": [
+  "": [
     ],
   "volunteer": [
-    {
-      "organization": "Hawaii Space Flight Laboratory",
-      "website": "https://www.hsfl.hawaii.edu/",
-      "position": "Shadow Software Developer",
-      "startDate": "2017-Sep-29",
-      "endDate": "2017-Dec-19",
-      "summary": "",
-      "highlights": [
-        "Helped develop a web-application for COSMOS",
-      ]
-    },
-        {
+      {
       "organization": "Hawaii Space Flight Laboratory",
       "website": "https://www.hsfl.hawaii.edu/",
       "position": "Shadow Software Developer",
