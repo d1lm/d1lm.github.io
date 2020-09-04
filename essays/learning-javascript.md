@@ -8,6 +8,8 @@ labels:
   - Javascript
   - Learning
 ---
+
+
 ## What do I think about Javascript?
 
 The first programming languages I became familiar with were C and Python, which means that learning this language was not that different. However, there were some new things I had learned. First, I was always told that comparing a string to an integer will always return "false" no matter what. However, when I learned Javascript and its use of coercion, I had come across things like 0 == "0" that return true. Even if you compare two different variable types, Javascript will convert one of them to be the same. When you use "===", it will check the variable type like Python and C. In some situations, I could take advantage of coercion so that I don't need to write a code to convert a variable to another type. 
