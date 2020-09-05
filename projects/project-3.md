@@ -1,14 +1,15 @@
 ---
 layout: project
 type: project
-image: images/cotton-square.png
-title: Cotton
+image: images/bowling-center.jpg
+title: Joining a Bowling Team
 permalink: projects/cotton
 # All dates must be YYYY-MM-DD format!
-date: 2014-04-12
+date: 2015-7-12
 labels:
-  - Lisp
-  - GitHub
+  - Self Improvement
+  - Sport
+  - Teamwork
 summary: A text adventure game I developed for ICS 313.
 ---
 In my junior year of High School, I wanted to be a part of a extra curricular activity that was no a part of my school. I always had a constant interest in being a part of a sports team, so I joined the Schofield Bowling League. This is where is learned how to be proficient at bowling. It was also the first time that I forced myself to be in the uncomfortable sitation of getting to know new people. However, I did make some friends of all ages and all skill groups and got along with them until I graduated. The league was always on weekends, and they expected you to create your own practice schedule. I ended up practicing on Wednesday since it was the shortest school day of the week.
