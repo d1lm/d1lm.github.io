@@ -8,6 +8,8 @@ permalink: projects/cotton
 date: 2015-9-14
 labels:
   - Sports
+  - Team Building
+  - Self Improvement
 summary: I joined a bowling team in my junior year of high school where I didn't know anyone.
 ---
 
