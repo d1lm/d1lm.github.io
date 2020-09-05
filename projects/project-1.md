@@ -17,29 +17,22 @@ summary: I wrote a program that can detect and identify digits and numbers by us
   <img class="ui image" src="../images/machinelearning.PNG">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
-
 Machine learning is producing models and analyzing large amounts of data to make conclusions about new data. Here, I used Python and Keras. Keras has built-in functions to analyze the datasets such as the MNIST handwritten digit set and the IRIS dataset. The MNIST dataset contains 60,000 test images to train the model, and 10,000 images to test the model. 
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
-
-What I did for the project was to visualize the accuracy of my model by calculating the area under the curve of the True Positive Rate and the False Positive Rate.
-
-Here is some code that illustrates how we read values from the line sensors:
-
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
+What I did for the project was to visualize the accuracy of my model by calculating the area under the curve of the True Positive Rate and the False Positive Rate. I did this by calculating the predictions for all images that are labeled 0. After this, I found the regression coefficients by fit it through the LinearRegression() function. I used the coefficients to be sorted against a threshold, then compared them to an array with the correct labels of each image. Then I calculated the TPR and FPR so that it can be graphed.
+```py
+for i in range (0, test_labels.size - 1):
+    threshold= (sortedRawP[i] + sortedRawP[i+1]) / 2
+    predictions=np.where(raw_predictions0 >threshold, 1,-1)
+    actual=np.where(test_labels==n,1,-1)
+    CM = confusion_matrix(actual,predictions0)
+    TPR = CM[0][0] / (CM[0][0] + CM[0][1])
+    FPR = CM[1][0] / (CM[1][0] + CM[1][1])
+    arrTPR = arrTPR + [TPR]
+    arrFPR = arrFPR + [FPR]
 ```
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+
 
 
 
