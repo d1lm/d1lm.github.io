@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/keras.jpg
+image: images/keras.png
 title: Handwritten Digit Recognition
 permalink: projects/micromouse
 # All dates must be YYYY-MM-DD format!
