@@ -2,24 +2,20 @@
 layout: project
 type: project
 image: images/vacay-square.png
-title: Vacay
+title: Racquetball
 permalink: projects/vacay
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2018-12-14
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - LogicWorks
+  - Circuit Logic
+  - Verilog
+summary: I worked with a team to recreate the game of raqcuetball on a circuit board and some LEDs.
 ---
+<div class="ui small rounded images">
+  <img class="ui image" src="../images/raqcuetball.png">
+</div>
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+During this project, I worked with 2 other people to simulate a game of raqcuetball for one person. A typical game of raqcuetball requires one person to constantly hit a ball against a ball for as long as they can. For our purposes, the playing field is represented as 6 LEDs. The first LED acts as the area where the player is, to hit the ball back to the wall. The 6th LED is the wall. When the ball is hit, the location of the ball is the LED that is on. There is a switch on the circuit that acts as hitting the ball when the ball is in the strike zone. If you fail to hit the ball in the strike zone, you lose the game.
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
-
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
-
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
- 
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+This project was great to for practicing to plan to solve a problem and collaborate with a team. learn to use ASM charts, truth tables and verilog. After planning all of th
