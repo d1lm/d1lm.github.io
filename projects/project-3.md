@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/bowling-center.jpg
-title: Joining a Bowling Team Outside of School
+title: Joining a Bowling Team 
 permalink: projects/cotton
 # All dates must be YYYY-MM-DD format!
 date: 2015-9-14
