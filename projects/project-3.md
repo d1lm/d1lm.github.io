@@ -5,7 +5,7 @@ image: images/bowling-center.jpg
 title: Schofield Bowling League
 permalink: projects/vacay
 # All dates must be YYYY-MM-DD format!
-date: 2018-12-14
+date: 2015-09-12
 labels:
   - Self-Improvement
   - Sports
