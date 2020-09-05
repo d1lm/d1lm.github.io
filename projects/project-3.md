@@ -2,60 +2,17 @@
 layout: project
 type: project
 image: images/cotton-square.png
-title: Cotton
+title: Joining a Bowling Team Outside of School
 permalink: projects/cotton
 # All dates must be YYYY-MM-DD format!
-date: 2014-04-12
+date: 2015-9-14
 labels:
-  - Lisp
-  - GitHub
-summary: A text adventure game I developed for ICS 313.
+  - Sports
+summary: I joined a bowling team in my junior year of high school where I didn't know anyone.
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+In my junior year of High School, I wanted to be a part of a extra curricular activity that was no a part of my school. I always had a constant interest in being a part of a sports team, so I joined the Schofield Bowling League. This is where is learned how to be proficient at bowling. It was also the first time that I forced myself to be in the uncomfortable sitation of getting to know new people. However, I did make some friends of all ages and all skill groups and got along with them until I graduated. The league was always on weekends, and they expected you to create your own practice schedule. I ended up practicing on Wednesday since it was the shortest school day of the week.
 
-Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+Being a part of the league has taught me that sometimes, you are the only person that you can rely on. You have to take the initiative to talk to people and ask for criticism to improve your skills at something. 
 
-To give you a flavor of the game, here is an excerpt from one run:
-
-<hr>
-
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
-
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
-
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
 
