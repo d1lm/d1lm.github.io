@@ -7,7 +7,7 @@ permalink: projects/cotton
 # All dates must be YYYY-MM-DD format!
 date: 2015-7-12
 labels:
-  - Self Improvement
+  - Self-Improvement
   - Sport
   - Teamwork
 summary: A text adventure game I developed for ICS 313.
