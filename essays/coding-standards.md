@@ -7,7 +7,7 @@ date: 2020-09-24
 labels:
   - Coding
   - Skills
-  - Management
+  - Organization
 ---
 ## Let ESLint Debug the Code for You
 
