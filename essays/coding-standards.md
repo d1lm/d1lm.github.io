@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Getting along with being Constantly Judged by a Computer
+title: Getting along with a Computer that Keeps Judging Me
 # All dates must be YYYY-MM-DD format!
 date: 2020-09-24
 labels:
