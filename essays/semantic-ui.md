@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: Semantic UI is the New Bread and Butter
 # All dates must be YYYY-MM-DD format!
-date: 2020-09-24
+date: 2020-10-08
 labels:
   - UI Framework
   - HTML
