@@ -1,11 +1,12 @@
 ---
 layout: essay
 type: essay
-title: The Only Thing we Invent are New Design Patterns.
-date: 2020-12-3
+title: We Only Invent New Design Patterns
+# All dates must be YYYY-MM-DD format!
+date: 2020-09-24
 labels:
-  - Groups
-  - Workflow
+  - Design
+  - Template
   - Organization
 ---
 
