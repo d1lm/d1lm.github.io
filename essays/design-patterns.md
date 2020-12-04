@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: We Only Invent New Design Patterns
 # All dates must be YYYY-MM-DD format!
-date: 2020-09-24
+date: 2020-12-03
 labels:
   - Design
   - Template
