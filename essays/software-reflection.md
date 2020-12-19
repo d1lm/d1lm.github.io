@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Athletic Engineering
+title: Baby-steps to Running
 # All dates must be YYYY-MM-DD format!
 date: 2020-12-18
 labels:
