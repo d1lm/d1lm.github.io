@@ -32,7 +32,8 @@
       "name": "Python",
       "keywords": [
         "Machine Learning",
-        "Keras"
+        "Keras",
+        "Pytorch"
       ]
     },
     {
@@ -41,7 +42,7 @@
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Artificial intelligence",
       "keywords": [
       ]
     }
@@ -53,7 +54,8 @@
       "keywords": [
         "C",
         "Python",
-        "Javascript"
+        "Javascript",
+        "HTML"
       ]
     },
     {
@@ -62,6 +64,7 @@
       "keywords": [
         "MacOS",
         "Ubuntu",
+        "Windows",
         "Git/GitHub"
       ]
     }
