@@ -26,5 +26,5 @@ This class was the only way for me to understand project management for developi
 
 Learning a new programming language was fairly easy, since I had some experience in coding in C and C++ from previous classes that I have taken. Learning the foundations of one language such as the looping, if logic, scopes and encapsulation are found in a lot of languages. This logic can also be applied to frameworks, such as Semantic-UI.
 
-When I had to learn JavaScript, I learned it through a website called FreeCodeCamp. I was able to go through the coding course with some ease, because this language had similar functionality to C++. However, when we learned HTML and Semantic-UI within a very short time, it was hard for me to do work since I had no experience with either of them from before.
+When I had to learn JavaScript, I learned it through a website called FreeCodeCamp. I was able to go through the coding course with some ease, because this language had similar functionality to C++. However, when we learned HTML and Semantic-UI within a very short time, it was hard for me to do work since I had no experience with either of them from previous classes.
 
